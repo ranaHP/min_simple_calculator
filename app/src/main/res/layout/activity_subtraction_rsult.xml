@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F17A"
+    tools:context=".SubtractionRsultActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="38dp"
+        android:fontFamily="@font/aldrich"
+        android:text="Simple Calculator"
+        android:textAlignment="center"
+        android:textColor="#F69402"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/design_by"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="86dp"
+        android:text="By 19001355 Hansana Ranaweera"
+        android:textColor="#CD9849"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/university"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="145dp"
+        android:text="University of Colombo School of Computing"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/go_back_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/answer"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="-4dp"
+        android:background="#FF5722"
+        android:fontFamily="monospace"
+        android:text="Go To Home Page"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/output_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="198dp"
+        android:layout_marginEnd="84dp"
+        android:text="The addition of 22 and 33 is"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/output_text"
+        android:layout_marginTop="34dp"
+        android:text="33"
+        android:textAlignment="center"
+        android:textSize="60sp" />
+
+</RelativeLayout>
